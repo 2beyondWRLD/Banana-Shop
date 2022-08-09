@@ -14,14 +14,14 @@ interface CurrencyType {
 }
 
 const CurrencyContext = createContext<CurrencyType>({
-  currency: 'SOL',
+  currency: 'GNANA',
   setCurrency: () => {},
   getCurrencySettings: () => {},
   currencyOptions: [{
-    currencySymbol: 'SOL',
-    treasuryMint: 'So11111111111111111111111111111111111111112',
-    currencyDecimals: 9,
-    priceDecimals: 3,
+    currencySymbol: 'GNANA',
+    treasuryMint: 'E6HdfEAvaY8Fz9avWHvP9iJLWhVrdvmRjvXNc2v3vzb7',
+    currencyDecimals: 4,
+    priceDecimals: 9,
     volumeDecimals: 1
   }],
 });
